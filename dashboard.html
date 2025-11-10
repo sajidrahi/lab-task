@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logged In Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            border: 1px solid black;
+            width: 800px;
+            margin: 0 auto;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid black;
+            padding: 10px;
+        }
+        .header .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .header a {
+            color: purple;
+            text-decoration: none;
+        }
+        .main {
+            display: flex;
+            border-bottom: 1px solid black;
+            min-height: 200px;
+        }
+        .sidebar {
+            width: 30%;
+            border-right: 1px solid black;
+            padding: 10px;
+        }
+        .sidebar h3 {
+            font-weight: bold;
+        }
+        .sidebar ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .sidebar a {
+            color: purple;
+            text-decoration: none;
+        }
+        .content {
+            width: 70%;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <h3>E. LOGGED IN DASHBOARD</h3>
+ 
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="c:\Users\DELL\Desktop\New folder\letter-x-leaf-concepts-logo-260nw-2366574227.webp" alt="X Logo">
+                Company
+            </div>
+            <div>
+                Logged in as <a href="#">Bob</a> | <a href="#">Logout</a>
+            </div>
+        </div>
+ 
+        <div class="main">
+            <div class="sidebar">
+                <h3>Account</h3>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">View Profile</a></li>
+                    <li><a href="#">Edit Profile</a></li>
+                    <li><a href="#">Change Profile Picture</a></li>
+                    <li><a href="#">Change Password</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+ 
+            <div class="content">
+                Welcome Bob
+            </div>
+        </div>
+ 
+        <div class="footer">
+            Copyright © 2017
+        </div>
+    </div>
+ 
+</body>
+</html>
